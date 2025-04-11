@@ -1,0 +1,24 @@
+namespace ConsoleApp1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("iniciando preparo do sanduíche...");
+            string[] ingredientes = { "Pão", "Queijo", "Presunto", "Complementos (opcionais)" };
+
+            Console.WriteLine("pegando uma fatia de pão.");
+            Console.WriteLine("adicionando queijo.");
+            Console.WriteLine("adiconando presunto");
+            Console.WriteLine("adicionando complementos,se desejado.");
+            Console.WriteLine("colocando a outra fatia de pão por cima");
+
+
+            Console.WriteLine("cortando o sanduiche ao meio");
+            Console.WriteLine("sanduiche pronto! servindo...");
+
+            Console.WriteLine("fim do processo");
+      
+        }
+    }
+}
